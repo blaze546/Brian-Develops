@@ -2,10 +2,13 @@
 :root {
   --main-white: #f0f0f0;
   --main-red: #be3144;
-  --main-blue: #182CE7;
+  --main-blue: #f38b5b;
   --main-pink: #D72897;
-  --main-gold: #E7D318;
-  --main-green: #E76B18;
+  --main-gold: #F3D75B;
+  --main-green: #f38b5b;
+  #d2b450 m gold;
+  #506ed2;
+  #f38b5b
 }
 
 /* Base reset */
@@ -118,6 +121,7 @@ header {
   width: 100%;
   background: var(--main-blue);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  border-bottom: 5px solid #F3D75B;
   /*z-index: 10;*/
 }
 
@@ -210,7 +214,7 @@ ul {
   header{
     flex-direction: column;
     height:180px;
-    border-bottom: 5px solid #E76B18;
+    border-bottom: 5px solid #F3D75B;
   }
   header img{
     margin-right: 0%;
@@ -255,7 +259,7 @@ li {
   align-items: center;
   width: 100%;
   height: 60vh;
-  background-color: #182CE7;
+  background-color: #f38b5b;
   /*background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);*/
 }
 
@@ -285,7 +289,7 @@ li {
   width: 200px;
   align-self: center;
   border: none;
-  background: #E76B18;
+  background: #5BC3F3;
   border-color: solid white 2px;
   border-radius: 5px;
   color: #FFF4F4;
@@ -305,7 +309,7 @@ flex-direction: column;
 height: 500px;
 background: #FFF4F4;
 justify-content: center;
-border-bottom: 5px solid #E76B18;
+border-bottom: 5px solid #f38b5b;
 }
 
 #info section{
@@ -314,11 +318,15 @@ border-bottom: 5px solid #E76B18;
   align-self: center;
   width: 80%;
   text-align: center;
-  color: #182CE7;
+  color: #F3D75B;
   background-color: var(--main-green);
   height: 250px;
   box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
   border-radius: 5px;
+}
+
+#info p{
+  color:#F3D75B;
 }
 
 
@@ -329,7 +337,7 @@ border-bottom: 5px solid #E76B18;
   flex-direction: column;
   height: 925px;
   background-color: #FFF4F4;
-  color:#E76B18;
+  color:#f38b5b;
 }
 
 .serviceintro{
@@ -346,7 +354,7 @@ border-bottom: 5px solid #E76B18;
   font-size: 2.5rem;
   align-self: center;
   margin-bottom: 20px;
-  color: #D72897;
+  color: #f38b5b;
 }
 .fa-lg{
   margin-top: 2.7rem;
@@ -358,7 +366,7 @@ border-bottom: 5px solid #E76B18;
   margin: 0 auto;
   padding: 0 15%;
   font-size: 1.7rem;
-  color : #E76B18;
+  color : #f38b5b;
   max-height: 1rem;
   width: 100%;
   
@@ -386,10 +394,10 @@ border-bottom: 5px solid #E76B18;
   padding-left: 5%;
   padding-right: 5%;
   font-size: 1.4rem;
-  color: #182CE7;
+  color: #F3D75B;
   text-align: center;
   border-radius: 5px;
-  background-color: #E7D318;
+  background-color: #5BC3F3;
   box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
 }
 
@@ -421,7 +429,7 @@ border-bottom: 5px solid #E76B18;
   color: #f0f0f0;
 }*/
 #services b{
-  color:#182CE7;
+  color:#FFF4F4;
 }
 #services button {
   margin-top: 40px;
@@ -429,7 +437,7 @@ border-bottom: 5px solid #E76B18;
   width: 200px;
   align-self: center;
   border: none;
-  background: #E76B18;
+  background: #f38b5b;
   border-color: solid white 2px;
   border-radius: 5px;
   color: white;
@@ -455,11 +463,11 @@ border-bottom: 5px solid #E76B18;
 }
 
 .code {
-  color: #E76B18;
+  color: #5BC3F3;
   transition: color 0.3s ease-out;
 }
 .project:hover .code {
-  color: #E76B18;
+  color: #5BC3F3;
 }
 
 @media (max-width: 28.75em) {
@@ -483,14 +491,15 @@ border-bottom: 5px solid #E76B18;
   font-size: 2.5rem;
   margin-top: 100px;
   text-align: center;
-  color: #d7c028;
+  color: #F3D75B;
   margin-top: 30px;
   margin-bottom: 20px;
   text-align: center;
 }
 #about .aboutsoftware{
   font-size: 2.2rem;
-  color: #d7c028;
+  color: #F3D75B;
+  margin-bottom: 1em;
 }
 
 #about p{
@@ -519,8 +528,8 @@ border-bottom: 5px solid #E76B18;
   flex-wrap: wrap;
   height: 600px;
   width: 90%;
-  background: #E76B18;
-  color: ;
+  background: #f38b5b;
+  color: #F3D75B;
   align-content: center;
   border-radius: 5px;
   box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
@@ -553,7 +562,7 @@ border-bottom: 5px solid #E76B18;
   align-items: center;
   height: 800px;
   background-color: #FFF4F4;
-  color: #E76B18;
+  color: #5BC3F3;
  }
 
  #contact h1{
@@ -603,7 +612,7 @@ border-bottom: 5px solid #E76B18;
   width: 200px;
   align-self: center;
   border: none;
-  background: #E76B18;
+  background: #5BC3F3;
   border-color: solid white 2px;
   border-radius: 5px;
   color: #FFF4F4;
@@ -753,8 +762,8 @@ footer {
   display: flex;
   justify-content: space-evenly;
   padding: 2rem;
-  background: #283FD7;
-  border-top: 4px solid var(--main-red);
+  background: #f38b5b;
+  border-top: 4px solid #F3D75B;
 }
 
 footer > p {
