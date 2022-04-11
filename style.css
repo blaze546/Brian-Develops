@@ -299,6 +299,10 @@ li {
   text-transform: uppercase;
  }
 
+ #welcome b{
+  color:#FFF4F4;
+ }
+
 
 
 
@@ -309,7 +313,7 @@ flex-direction: column;
 height: 500px;
 background: #FFF4F4;
 justify-content: center;
-border-bottom: 5px solid #f38b5b;
+border-bottom: 5px solid #5BC3F3;
 }
 
 #info section{
@@ -397,7 +401,7 @@ border-bottom: 5px solid #f38b5b;
   color: #F3D75B;
   text-align: center;
   border-radius: 5px;
-  background-color: #5BC3F3;
+  background-color: #f38b5b;
   box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
 }
 
@@ -437,7 +441,7 @@ border-bottom: 5px solid #f38b5b;
   width: 200px;
   align-self: center;
   border: none;
-  background: #f38b5b;
+  background: #5BC3F3;
   border-color: solid white 2px;
   border-radius: 5px;
   color: white;
