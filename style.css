@@ -505,6 +505,9 @@ border-bottom: 5px solid #90b6e8;
   margin-bottom: 1em;
 }
 
+#about a{
+  color:#FFF4F4;
+}
 #about p{
   font-size: 1.8rem;
   width: 100%;
@@ -517,7 +520,7 @@ border-bottom: 5px solid #90b6e8;
   display: flex;
   width: 200px;
   height: 200px;
-  margin-top: 100px;
+  margin-top: 2em;
   justify-content: center;
   align-self: center;
   border-radius: 50%;
@@ -551,7 +554,30 @@ border-bottom: 5px solid #90b6e8;
   justify-content: center;
   align-content: center;
   height: 30%;
+ } 
+ .connectButton{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  }
+
+
+ .submitbutton{
+  margin-top: 20px;
+  height: 50px;
+  width: 200px;
+  align-self: center;
+  border: none;
+  background: #90b6e8;
+  border-color: solid white 2px;
+  border-radius: 5px;
+  color: #FFF4F4;
+  margin: 12px;
+  box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
+  padding: 2px;
+  text-transform: uppercase;
  }
+
  .sectionTitle{
    text-align:center;
  }
@@ -609,11 +635,12 @@ border-bottom: 5px solid #90b6e8;
   align-self: center;
  }
 
- .submitbutton{
+ #about button{
   margin-top: 20px;
   height: 50px;
   width: 200px;
   align-self: center;
+  justify-content: center;
   border: none;
   background: #90b6e8;
   border-color: solid white 2px;
