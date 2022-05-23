@@ -237,7 +237,7 @@ a.icon{
 }
 
 body{
-  font-size: 2em;
+  /*font-size: 2em;*/
 }
 li {
   padding: .5em;
@@ -247,6 +247,12 @@ li {
    margin-top: none;
    margin-top: 75px;
   }
+  .connectButton{
+   
+    margin-top: none;
+    margin-top: 1.5em;
+    }
+
 }
 
 /* Welcome section */
@@ -559,11 +565,12 @@ border-bottom: 5px solid #90b6e8;
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-top: 2em;
   }
 
 
  .submitbutton{
-  margin-top: 20px;
+  
   height: 50px;
   width: 200px;
   align-self: center;
@@ -572,10 +579,10 @@ border-bottom: 5px solid #90b6e8;
   border-color: solid white 2px;
   border-radius: 5px;
   color: #FFF4F4;
-  margin: 12px;
   box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
   padding: 2px;
   text-transform: uppercase;
+  margin-bottom: :1em;
  }
 
  .sectionTitle{
