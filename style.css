@@ -345,7 +345,7 @@ border-bottom: 5px solid #90b6e8;
 #services{
   display: flex;
   flex-direction: column;
-  height: 925px;
+  height: 105rem;
   background-color: #FFF4F4;
   color:#90b6e8;
 }
@@ -385,12 +385,12 @@ border-bottom: 5px solid #90b6e8;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  height: 100rem;
+  height: 160rem;
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 60px;
-  /*background: #FFF4F4;*/
+  background: #FFF4F4;
 }
 .services section{
   display: flex;
@@ -398,7 +398,7 @@ border-bottom: 5px solid #90b6e8;
   justify-content: first baseline;
   align-items: center;
   width: 700px;
-  margin: 15px;
+  margin: 11px;
   /*height: 15rem;*/
   padding-top: 0px;
   padding-left: 5%;
@@ -465,7 +465,7 @@ border-bottom: 5px solid #90b6e8;
   text-align: center;
   padding: 10rem 2rem;
   background: var(--main-blue);
-  margin-top: 8rem;
+  /margin-top: 8rem;*/
 }
 
 .projects-section-header {
