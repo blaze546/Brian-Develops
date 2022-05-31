@@ -270,7 +270,7 @@ li {
 
 .welcomesection  p {
   text-align: center;
-  font-size: 3rem;
+  font-size: 6rem;
   font-weight: 200;
   font-style: italic;
   color: var(--main-gold);
@@ -336,6 +336,7 @@ border-bottom: 5px solid #90b6e8;
 
 #info p{
   color:#F3D75B;
+  font-size: 3rem;
 }
 
 
@@ -359,7 +360,7 @@ border-bottom: 5px solid #90b6e8;
   margin-top: 50px;
   margin-bottom: 20px;
 }
-.serviceintro h1{
+.service h1{
   font-size: 2.5rem;
   align-self: center;
   margin-bottom: 20px;
@@ -373,8 +374,8 @@ border-bottom: 5px solid #90b6e8;
   text-align: center;
   align-self: center;
   margin: 0 auto;
-  padding: 0 15%;
-  font-size: 1.7rem;
+  /*padding: 0 15%;*/
+  font-size: 2.2rem;
   color : #90b6e8;
   max-height: 1rem;
   width: 100%;
@@ -384,12 +385,12 @@ border-bottom: 5px solid #90b6e8;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /*height: 650px;*/
+  height: 100rem;
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 60px;
-  background: #FFF4F4;
+  /*background: #FFF4F4;*/
 }
 .services section{
   display: flex;
@@ -402,7 +403,7 @@ border-bottom: 5px solid #90b6e8;
   padding-top: 0px;
   padding-left: 5%;
   padding-right: 5%;
-  font-size: 1.4rem;
+  /*font-size: 1.4rem;*/
   color: #F3D75B;
   text-align: center;
   border-radius: 5px;
@@ -421,6 +422,7 @@ border-bottom: 5px solid #90b6e8;
 .services p{
   margin-top: 1rem;
   margin-bottom: 1rem;
+  font-size: 2rem;
 }
 
 /*.services .proposal{
@@ -441,8 +443,8 @@ border-bottom: 5px solid #90b6e8;
   color:#FFF4F4;
 }
 #services button {
-  margin-top: 40px;
-  height: 50px;
+  /*margin-top: 40px;*/
+  height: 5rem;
   width: 200px;
   align-self: center;
   border: none;
@@ -452,7 +454,7 @@ border-bottom: 5px solid #90b6e8;
   color: white;
   margin-left: 200px;
   margin-right: 200px;
-  margin-bottom: 1em;
+  margin-bottom: 3rem;
   box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
   padding: 2px;
 }
@@ -463,6 +465,7 @@ border-bottom: 5px solid #90b6e8;
   text-align: center;
   padding: 10rem 2rem;
   background: var(--main-blue);
+  margin-top: 8rem;
 }
 
 .projects-section-header {
