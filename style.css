@@ -306,6 +306,7 @@ li {
 
  #welcome b{
   color:#FFF4F4;
+  font-size: 2rem;
  }
 
 
@@ -336,10 +337,14 @@ border-bottom: 5px solid #90b6e8;
 
 #info p{
   color:#F3D75B;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
-
+.sectionTitle{
+   text-align:center;
+   font-size: 3rem;
+   margin-top: 2rem;
+ }
 
 /* services */
 #services{
@@ -375,7 +380,7 @@ border-bottom: 5px solid #90b6e8;
   align-self: center;
   margin: 0 auto;
   /*padding: 0 15%;*/
-  font-size: 2.2rem;
+  font-size: 3rem;
   color : #90b6e8;
   max-height: 1rem;
   width: 100%;
@@ -389,7 +394,7 @@ border-bottom: 5px solid #90b6e8;
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 8rem;
+  margin-top: 12rem;
   background: #FFF4F4;
 }
 .services section{
@@ -441,6 +446,7 @@ border-bottom: 5px solid #90b6e8;
 }*/
 #services b{
   color:#FFF4F4;
+  font-size: 2rem;
 }
 #services button {
   /*margin-top: 40px;*/
@@ -500,7 +506,7 @@ border-bottom: 5px solid #90b6e8;
   align-content: center;
 }
 #about h1{
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-top: 100px;
   text-align: center;
   color: #F3D75B;
@@ -509,7 +515,7 @@ border-bottom: 5px solid #90b6e8;
   text-align: center;
 }
 #about .aboutsoftware{
-  font-size: 2.2rem;
+  font-size: 2.8rem;
   color: #F3D75B;
   margin-bottom: 1em;
 }
@@ -518,7 +524,7 @@ border-bottom: 5px solid #90b6e8;
   color:#FFF4F4;
 }
 #about p{
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   width: 100%;
   margin-top: 0;
   /*margin-left: 125px;*/
@@ -541,7 +547,7 @@ border-bottom: 5px solid #90b6e8;
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: wrap;
-  height: 600px;
+  /*height: 600px;*/
   width: 90%;
   background: #C5480E;
   color: #F3D75B;
@@ -573,7 +579,7 @@ border-bottom: 5px solid #90b6e8;
 
 
  .submitbutton{
-  
+  font-size: 2rem;
   height: 50px;
   width: 200px;
   align-self: center;
@@ -588,9 +594,7 @@ border-bottom: 5px solid #90b6e8;
   margin-bottom: :1em;
  }
 
- .sectionTitle{
-   text-align:center;
- }
+ 
 
 
  /* Contact Section */
@@ -605,11 +609,11 @@ border-bottom: 5px solid #90b6e8;
  }
 
  #contact h1{
-  font-size: 2.5rem;
+  font-size: 3rem;
   align-self: center;
  }
  #contact span{
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   align-self: center;
   text-align:center;
  }
@@ -645,6 +649,9 @@ border-bottom: 5px solid #90b6e8;
   align-self: center;
  }
 
+ .buttonfix{
+   font-size: 2rem;
+ }
  #about button{
   margin-top: 20px;
   height: 50px;
@@ -653,7 +660,6 @@ border-bottom: 5px solid #90b6e8;
   justify-content: center;
   border: none;
   background: #90b6e8;
-  border-color: solid white 2px;
   border-radius: 5px;
   color: #FFF4F4;
   margin: 12px;
@@ -719,6 +725,7 @@ border-bottom: 5px solid #90b6e8;
 
 .project-title {
   padding: 2rem 0.5rem;
+  font-size: 3rem;
 }
 
 .btn {
@@ -728,7 +735,7 @@ border-bottom: 5px solid #90b6e8;
 }
 
 .btn-show-all {
-  font-size: 2rem;
+  font-size: 3rem;
   background: var(--main-gray);
   transition: background 0.3s ease-out;
 }
