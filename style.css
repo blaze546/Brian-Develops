@@ -345,7 +345,7 @@ border-bottom: 5px solid #90b6e8;
 #services{
   display: flex;
   flex-direction: column;
-  height: 105rem;
+  /*height: 105rem;*/
   background-color: #FFF4F4;
   color:#90b6e8;
 }
@@ -385,11 +385,11 @@ border-bottom: 5px solid #90b6e8;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  height: 160rem;
+  /*height: 120rem;*/
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 60px;
+  margin-top: 8rem;
   background: #FFF4F4;
 }
 .services section{
@@ -420,9 +420,9 @@ border-bottom: 5px solid #90b6e8;
 }
 
 .services p{
-  margin-top: 1rem;
+  margin-top: 3rem;
   margin-bottom: 1rem;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 /*.services .proposal{
