@@ -319,7 +319,7 @@ flex-direction: column;
 height: 500px;
 background: #FFF4F4;
 justify-content: center;
-border-bottom: 5px solid #90b6e8;
+border-bottom: 5px solid #F3D75B;
 }
 
 #info section{
@@ -352,7 +352,7 @@ border-bottom: 5px solid #90b6e8;
   flex-direction: column;
   /*height: 105rem;*/
   background-color: #FFF4F4;
-  color:#90b6e8;
+  color:#C5480E;
 }
 
 .serviceintro{
@@ -381,7 +381,7 @@ border-bottom: 5px solid #90b6e8;
   margin: 0 auto;
   /*padding: 0 15%;*/
   font-size: 3rem;
-  color : #90b6e8;
+  color : #C5480E;
   max-height: 1rem;
   width: 100%;
   
