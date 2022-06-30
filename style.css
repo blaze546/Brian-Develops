@@ -741,7 +741,7 @@ border-bottom: 5px solid #F3D75B;
 }
 
 .btn-show-all:hover {
-  background: var(--main-red);
+  background: #90b6e8;
 }
 
 .btn-show-all:hover > i {
