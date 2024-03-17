@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import CollapsibleExample from './Components/Navbar';
 import WelcomeSection from './Components/WelcomeSection';
