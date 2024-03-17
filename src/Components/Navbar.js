@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 //import NavDropdown from 'react-bootstrap/NavDropdown';
-import LogoImage from 'src/BrianLogo1.png';
+import BrianLogo from './BrianLogo1.png'; 
 function CollapsibleExample() {
   return (
     <Navbar collapseOnSelect expand="lg" className="nav">
@@ -11,7 +11,7 @@ function CollapsibleExample() {
         {/* Replace text with an image */}
         <Navbar.Brand href="#home">
           <img
-            src={LogoImage}
+            src={BrianLogo}
             alt="Logo"
             //height="50"
             className="d-inline-block align-top"
