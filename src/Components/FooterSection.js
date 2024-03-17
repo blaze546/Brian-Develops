@@ -8,6 +8,7 @@ const FooterSection = () => {
           id="profile-link"
           href="https://github.com/blaze546"
           target="_blank"
+          rel="noreferrer"
           className="btn contact-details"
         >
           <i className="fab fa-github fa-3x"style={{ color: '#F3D75B' }}></i>
@@ -15,6 +16,7 @@ const FooterSection = () => {
         <a
           href="https://twitter.com/850Alexandre"
           target="_blank"
+          rel="noreferrer"
           className="btn contact-details"
         >
           <i className="fab fa-twitter fa-3x"style={{ color: '#F3D75B' }}></i>
