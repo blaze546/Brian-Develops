@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 //import NavDropdown from 'react-bootstrap/NavDropdown';
-import LogoImage from '/Users/brianalexandre/Documents/GitHub/Brian-Develops/src/BrianLogo1.png';
+import LogoImage from 'src/BrianLogo1.png';
 function CollapsibleExample() {
   return (
     <Navbar collapseOnSelect expand="lg" className="nav">
