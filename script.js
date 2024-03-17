@@ -1,4 +1,4 @@
-var flkty = new Flickity( '.main-gallery', {
+/*var flkty = new Flickity( '.main-gallery', {
     // options
     cellAlign: 'left',
     contain: true
@@ -12,4 +12,4 @@ var flkty = new Flickity( '.main-gallery', {
       x.className = "topnav";
     }
   }
-
+*/
