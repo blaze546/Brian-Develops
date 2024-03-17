@@ -1,135 +1,58 @@
 import React from 'react';
+import { Carousel } from 'react-bootstrap';
+import ExampleCarouselImage from './ExampleCarouselImage';
 
 const ProjectSection = () => {
   return (
-    <section id="projects" className="projects-section">
-      <h2 className="projects-section-header">These are some of my projects</h2>
-
-      <div className="projects-grid">
-        <div className="project-cells">
-          <a
-            href="https://brianalexandrebooks.netlify.app"
-            target="_blank"
-            className="project project-tile"
-          >
-            <img
-              className="project-image"
-              src="Author-Page-Screen.png"
-              alt="project"
-            />
-            <p className="project-title">
-              <span className="code">&lt;</span>
-              Author Page
-              <span className="code">&#47;&gt;</span>
+    <section id="projects" className="projects-sections">
+      <h2 className="projects-section-header">Here are some of my projects</h2>
+    <Carousel>
+      <Carousel.Item interval={1000}>
+        <ExampleCarouselImage src = "UTC.png" text="First slide" />
+        <Carousel.Caption>
+          <h3>Utc Nursing School</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item interval={500}>
+        <ExampleCarouselImage src = "tactocsmall.png" text="Second slide" />
+        <Carousel.Caption>
+          <h3>Tactoc Consulting</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <ExampleCarouselImage src = "author-page-screen.png"text="Third slide" />
+        <Carousel.Caption>
+          <h3>Author Page</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
-          </a>
-        </div>
-
-        <div className="project-cells">
-          <a
-            href="https://utcnursingschool.org"
-            target="_blank"
-            className="project project-tile"
-          >
-            <img
-              className="project-image"
-              src="UTC.png"
-              alt="project"
-            />
-            <p className="project-title">
-              <span className="code">&lt;</span>
-              UTC Nursing School
-              <span className="code">&#47;&gt;</span>
-            </p>
-          </a>
-        </div>
-
-        <div className="project-cells">
-          <a
-            href="https://tactocconsulting.wordpress.com/"
-            target="_blank"
-            className="project project-tile"
-          >
-            <img
-              className="project-image"
-              src="Screenshot 2023-03-21 at 11.49.08 AM.png"
-              alt="project"
-            />
-            <p className="project-title">
-              <span className="code">&lt;</span>
-              Tactoc Consulting
-              <span className="code">&#47;&gt;</span>
-            </p>
-          </a>
-        </div>
-
-        <div className="project-cells">
-          <a
-            href="https://testimonials-grid1.netlify.app"
-            target="_blank"
-            className="project project-tile"
-          >
-            <img
-              className="project-image"
-              src="Test-Grid-snip.png"
-              alt="project"
-            />
-            <p className="project-title">
-              <span className="code">&lt;</span>
-              Testimonials
-              <span className="code">&#47;&gt;</span>
-            </p>
-          </a>
-        </div>
-
-        <div className="project-cells">
-          <a
-            href="https://injusticecharacterselect.netlify.app"
-            target="_blank"
-            className="project project-tile"
-          >
-            <img
-              className="project-image"
-              src="Injustice-Screenshot.png"
-              alt="project"
-            />
-            <p className="project-title">
-              <span className="code">&lt;</span>
-              Injustice 2 Character Select
-              <span className="code">&#47;&gt;</span>
-            </p>
-          </a>
-        </div>
-
-        <div className="project-cells">
-          <a
-            href="https://blazespokedex.netlify.app"
-            target="_blank"
-            className="project project-tile"
-          >
-            <img
-              className="project-image"
-              src="Pokedex-Scren.png"
-              alt="project"
-            />
-            <p className="project-title">
-              <span className="code">&lt;</span>
-              Pokedex
-              <span className="code">&#47;&gt;</span>
-            </p>
-          </a>
-        </div>
-      </div>
-
-      <a
-        href="https://codepen.io/FreeCodeCamp/"
-        className="btn btn-show-all"
-        target="_blank"
-      >
-        Show all<i className="fas fa-chevron-right"></i>
-      </a>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <ExampleCarouselImage src = "Pokedex.jpg"text="Third slide" />
+        <Carousel.Caption>
+          <h3>Pokedex</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <ExampleCarouselImage src = "Nft-Prev-Scren.Png"text="Third slide" />
+        <Carousel.Caption>
+          <h3>Nft Currency</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
     </section>
   );
-};
+}
 
 export default ProjectSection;
+
+

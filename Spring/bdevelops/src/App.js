@@ -1,33 +1,29 @@
-import React from 'react';
+import logo from './logo.svg';
 import './App.css';
-import Top from './Components/Top.Js';
+import CollapsibleExample from './Components/Navbar';
 import WelcomeSection from './Components/WelcomeSection';
-import './index.css';
 import InfoSection from './Components/InfoSection';
 import ServicesSection from './Components/ServicesSection';
-import ProjectSection from './Components/ProjectSection';
 import AboutSection from './Components/AboutSection';
+import IndividualIntervalsExample from './Components/ProjectSection';
 import ContactSection from './Components/ContactSection';
-import FooterSection from './Components/FooterSection';
 import CustomFooter from './Components/CustomFooter';
-import CollapsibleExample from './Components/Top.Js';
+import FooterSection from './Components/FooterSection';
 
-const App = () => {
+function App() {
   return (
-    <div className='App'>
-      <Top />
+    <div className="App">
+      <CollapsibleExample />
       <WelcomeSection />
       <InfoSection />
       <ServicesSection />
-      <ProjectSection />
+      <IndividualIntervalsExample />
       <AboutSection />
       <ContactSection />
       <FooterSection />
       <CustomFooter />
-      {/* Other sections and components */}
     </div>
   );
-};
+}
 
 export default App;
-
