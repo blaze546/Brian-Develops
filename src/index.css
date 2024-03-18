@@ -836,11 +836,111 @@ footer i {
  }
   
 }
+@media (max-width: 413px) {
+  /* CSS rules for extra extra small devices */
+  #info p{
+    font-size: 1.5rem;
+  }
+  .sectionTitle{
+    font-size: 2.3rem;
+  }
+  .servicesintro p{
+    margin: 0 auto;
+    font-size: 1.7rem;
+    max-height: 1rem;
+    width: 100%;
+  }
+  .services h3{
+    font-size: 2.3rem;
+  }
+  #services b {
+    font-size: 1.4rem;
+  }
+  .carousel-caption{
+    font-size:3rem;
+  }
+ #about{
+  height: 880px;
+ }
+ #about h1{
+  margin-top: 0px;
+  margin-bottom: 0px;
+ }
+ #about .aboutsoftware{
+  font-size: 2rem;
+ }
+ #about p{
+ font-size: 1.9rem;
+ }
+ .bigabout{
+  height: 80%;
+ }
+ #contact{
+  height: auto;
+ }
+  
+}
+@media (max-width: 368px) {
+  /* CSS rules for extra extra iphonhe 11 small devices */
+  #info p{
+    font-size: 1.4rem;
+  }
+  .sectionTitle{
+    font-size: 2.0rem;
+  }
+  .services h3{
+    font-size: 2.3rem;
+  }
+  .servicesintro p{
+    margin: 0 auto;
+    font-size: 1.7rem;
+    max-height: 1rem;
+    width: 100%;
+  }
+  #services b {
+    font-size: 1.4rem;
+  }
+  .carousel-caption{
+    font-size:3rem;
+  }
+ #about{
+  height: 95rem;
+ }
+ #about h1{
+  margin-top: 0px;
+  margin-bottom: 0px;
+ }
+ #about .aboutsoftware{
+  font-size: 2rem;
+ }
+ #about p{
+ font-size: 1.9rem;
+ }
+ .bigabout{
+  height: 80%;
+ }
+ #contact{
+  height: auto;
+ }
+  
+}
 
-
-
-
-
-
-
-
+@media (max-width: 310px) {
+  #about{
+    height: 105rem;
+   }
+}
+@media (max-width: 260px) {
+  #about{
+    height: 110rem;
+   }
+   .services h3{
+    font-size: 2.0rem;
+  }
+  .services p{
+    font-size: 2.5rem;
+  }
+   #info p{
+    font-size: 1.2rem;
+  }
+}
