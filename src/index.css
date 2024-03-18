@@ -922,6 +922,9 @@ footer i {
  #contact{
   height: auto;
  }
+ #contacts h1{
+  font-size: 2.5rem;
+ }
   
 }
 
