@@ -15,19 +15,19 @@ const ProjectSection = () => {
                 <h3>Utc Nursing School</h3>
               </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item interval={500}>
+            <Carousel.Item interval={700}>
               <ExampleCarouselImage src="tactocsmall.png" text="Second slide" /> {/* Added space after src= */}
               <Carousel.Caption>
                 <h3>Tactoc Consulting</h3>
               </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item interval={700}>
               <ExampleCarouselImage src="author-page-screen.png" text="Third slide" /> {/* Added space after src= */}
               <Carousel.Caption>
                 <h3>Author Page</h3>
               </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item interval={700}>
               <ExampleCarouselImage src="Pokedex.jpg" text="Fourth slide" /> {/* Added space after src= and changed text */}
               <Carousel.Caption>
                 <h3>Pokedex</h3>
