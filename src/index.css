@@ -100,11 +100,6 @@ img {
 
 
 
-@media screen and (max-width: 600px) {
- 
-}
-@media screen and (max-width: 600px) {
-
 
 a.icon{
   margin:0 auto;
@@ -122,13 +117,14 @@ li {
    margin-top: none;
    margin-top: 75px;
   }
-  .connectButton{
+  
+.connectButton{
    
     margin-top: none;
     margin-top: 1.5em;
     }
 
-}
+
 
 /* Welcome section */
 
@@ -183,6 +179,10 @@ li {
   box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
   padding: 2px;
   text-transform: uppercase;
+ }
+
+ .buttonFix{
+  border: none;
  }
 
  #welcome b{
