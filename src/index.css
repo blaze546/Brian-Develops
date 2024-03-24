@@ -706,6 +706,10 @@ footer i {
   .carousel .carousel-caption{
     font-size:30rem;
   }
+  #services button{
+    margin-left: 200px;
+    margin-right: 200px;
+   }
   
 }
 /* Medium devices (landscape tablets and medium desktops, 769px to 992px) */
@@ -741,8 +745,8 @@ footer i {
     height: 80%;
    }
    #services button{
-    margin-left: none;
-    margin-right: none;
+    margin-left: 200px;
+    margin-right: 200px;
    }
     
   } 
