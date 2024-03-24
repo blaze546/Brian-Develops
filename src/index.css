@@ -861,6 +861,10 @@ footer i {
  .bigabout{
   height: 80%;
  }
+ #services button{
+  margin-left: none;
+  margin-right: none;
+ }
   
 }
 @media (max-width: 413px) {
@@ -910,6 +914,10 @@ footer i {
   font-size: 1.2rem;
   
 }
+#services button{
+  margin-left: none;
+  margin-right: none;
+ }
   
 }
 @media (max-width: 368px) {
@@ -957,12 +965,20 @@ footer i {
  #contacts h1{
   font-size: 2.5rem;
  }
+ #services button{
+  margin-left: none;
+  margin-right: none;
+ }
   
 }
 
 @media (max-width: 310px) {
   #about{
     height: 105rem;
+   }
+   #services button{
+    margin-left: none;
+    margin-right: none;
    }
 }
 @media (max-width: 260px) {
@@ -978,4 +994,8 @@ footer i {
    #info p{
     font-size: 1.2rem;
   }
+  #services button{
+    margin-left: none;
+    margin-right: none;
+   }
 }
