@@ -342,8 +342,6 @@ border-bottom: 5px solid #f78c56;
   border-color: solid #2e4412 2px;
   border-radius: 5px;
   color: white;
-  margin-left: 200px;
-  margin-right: 200px;
   margin-bottom: 3rem;
   box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
   padding: 2px;
@@ -897,6 +895,7 @@ footer i {
  #services b{
   color:#FFF4F4;
   font-size: 1.2rem;
+  
 }
   
 }
