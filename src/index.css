@@ -778,7 +778,10 @@ footer i {
  .bigabout{
   height: 80%;
  }
-  
+ #services button{
+  margin-left: none;
+  margin-right: none;
+ }
   
 }
 /* Extra small devices (phones, 576px and down) */
@@ -814,6 +817,10 @@ footer i {
  }
  .bigabout{
   height: 80%;
+ }
+ #services button{
+  margin-left: none;
+  margin-right: none;
  }
   
 } 
