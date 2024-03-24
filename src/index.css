@@ -894,6 +894,10 @@ footer i {
  #contact{
   height: auto;
  }
+ #services b{
+  color:#FFF4F4;
+  font-size: 1.2rem;
+}
   
 }
 @media (max-width: 368px) {
