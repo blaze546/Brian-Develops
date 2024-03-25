@@ -12,11 +12,9 @@ const InfoSection = () => {
   return (
     <section id="info" className={`info-section ${animate ? 'slide-in' : ''}`}>
       <section>
-        <h2 className="sectionTitle">"Websites Designed with Care & Precision"</h2>
+        <h2 className="sectionTitle">"Precision-Crafted Websites for Small Businesses & Non-Profits"</h2>
         <p>
-          My specialty is working with small businesses & non-profits to create the website they’ve dreamed about.
-          Over the last four years, I’ve learned that every business is special, and requires a website that reflects that.
-          Let’s create the website of your dreams together!
+        I specialize in designing custom websites that perfectly capture the essence of your small business or non-profit. With four years of experience, I understand the importance of creating a unique online presence. Let's collaborate to build the website you've always envisioned!
         </p>
       </section>
     </section>

@@ -4,10 +4,9 @@ const ServicesSection = () => {
   return (
     <section id="services">
       <section className="servicesintro">
-        <h1 className="servicestitle">My Services</h1>
+        <h1 className="servicestitle">Services</h1>
         <p>
-          Great projects require methodical planning. My goal is to ensure every client’s vision exceeds expectations.
-          To accomplish that, I provide the following services:
+        Effective projects demand meticulous planning. My objective is to surpass every client's expectations by meticulously bringing their vision to life. To achieve this, I offer the following services:
         </p>
       </section>
 
@@ -34,7 +33,7 @@ const ServicesSection = () => {
           <h3>3. Development</h3>
           <p>
             Now your site is being developed. The estimated time for development is dependent on each project.
-            Expect to receive weekly updates on the progress of your site during this stage.
+            Expect to receive biweekly updates on the progress of your site during this stage.
           </p>
         </section>
 

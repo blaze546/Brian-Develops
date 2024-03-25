@@ -441,7 +441,7 @@ border-bottom: 5px solid #f78c56;
   color:#ffffff;
 }
 #about p{
-  font-size: 2.5rem;
+  font-size: 2rem;
   width: 100%;
   margin-top: 0;
   /*margin-left: 125px;*/
@@ -452,7 +452,7 @@ border-bottom: 5px solid #f78c56;
   display: flex;
   width: 200px;
   height: 200px;
-  margin-top: 2em;
+  margin-top: 2rem;
   justify-content: center;
   align-self: center;
   border-radius: 50%;
@@ -739,7 +739,7 @@ footer i {
     font-size: 3rem;
    }
    #about p{
-   font-size: 2.3rem;
+   font-size: 1.7rem;
    }
    .bigabout{
     height: 80%;
@@ -779,7 +779,7 @@ footer i {
   font-size: 2rem;
  }
  #about p{
- font-size: 1.9rem;
+ font-size: 1.5rem;
  }
  .bigabout{
   height: 80%;
@@ -819,7 +819,7 @@ footer i {
   font-size: 2rem;
  }
  #about p{
- font-size: 1.9rem;
+ font-size: 1.3rem;
  }
  .bigabout{
   height: 80%;
@@ -862,7 +862,7 @@ footer i {
   font-size: 2rem;
  }
  #about p{
- font-size: 1.9rem;
+ font-size: 1.2rem;
  }
  .bigabout{
   height: 80%;
@@ -907,7 +907,7 @@ footer i {
   font-size: 2rem;
  }
  #about p{
- font-size: 1.9rem;
+ font-size: 1.2rem;
  }
  .bigabout{
   height: 80%;
@@ -960,7 +960,7 @@ footer i {
   font-size: 2rem;
  }
  #about p{
- font-size: 1.9rem;
+ font-size: 1.2rem;
  }
  .bigabout{
   height: 80%;

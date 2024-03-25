@@ -11,16 +11,17 @@ const AboutSection = () => {
           <br />
           based in Boston, MA
         </p>
-        <p>
-          I’ve always loved being creative and solving problems. Web development and design is the perfect blend of both. I enjoy creating unique sites, and I get to fix them if anything goes wrong.
+        <p> put text into a seperte box that i can size with a max width attribute
+        As a passionate web developer and designer, I thrive on crafting unique digital experiences that captivate and engage users. From conceptualization to execution, I relish the challenge of turning ideas into visually stunning and functional websites. 
+         If something goes awry, you can count on me to roll up my sleeves and fix it promptly, ensuring seamless user experiences at all times.
         </p>
         <p>
-          When I'm not coding, I also find joy in writing, gaming, watching Barcelona games, spending time with friends & family, or traveling!
+        Beyond the screen, I find inspiration and joy in various pursuits. Whether it's crafting compelling narratives through writing, diving into immersive gaming worlds, cheering on Barcelona in heart-pounding matches, or embarking on adventures with loved ones, I believe in embracing every moment with creativity and enthusiasm.
         </p>
       </section>
 
       <section className="aboutsecond">
-        <img src="IMG_1742.jpeg" alt="Brian Develops Headshot" />
+        <img src="Spring2024.jpeg" alt="Brian Develops Headshot" />
       </section>
 
       <section className="connectButton">
