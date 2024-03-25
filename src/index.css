@@ -147,8 +147,8 @@ li {
 
 .welcomesection  p {
   text-align: center;
-  font-size: 4rem;
-  font-weight: 200;
+  font-size: 3rem;
+  font-weight: 300;
   font-style: italic;
   color: #432616;
 }
@@ -716,7 +716,10 @@ footer i {
 @media (min-width: 768px) and (max-width: 992px) {
   /* CSS rules for medium devices */
   #info p{
-    font-size: 2.2rem;
+    font-size: 2rem;
+  }
+  .welcomesection p{
+    font-size: 2.5rem;
   }
   .servicesintro p{
     margin: 0 auto;
@@ -751,10 +754,13 @@ footer i {
     
   } 
 /* Small devices (portrait tablets and small desktops, 577px to 768px) */
-@media (min-width: 577px) and (max-width: 767px) {
+@media (min-width: 600px) and (max-width: 767px) {
   /* CSS rules for small devices */
   #info p{
-    font-size: 1.9rem;
+    font-size: 1.7rem;
+  }
+  .welcomesection p{
+    font-size: 2.3rem;
   }
   .servicesintro p{
     margin: 0 auto;
@@ -791,10 +797,16 @@ footer i {
   
 }
 /* Extra small devices (phones, 576px and down) */
-@media (max-width: 576px) {
+@media (max-width: 599px) {
   /* CSS rules for extra small devices */
   #info p{
     font-size: 1.5rem;
+  }
+  .welcomesection p{
+    font-size: 2.0rem;
+  }
+  .sectionTitle{
+    font-size: 2rem;
   }
   .servicesintro p{
     margin: 0 auto;
@@ -834,10 +846,13 @@ footer i {
 @media (max-width: 413px) {
   /* CSS rules for extra extra small devices */
   #info p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+  }
+  .welcomesection p{
+    font-size: 1.6rem;
   }
   .sectionTitle{
-    font-size: 2.3rem;
+    font-size: 2rem;
   }
   .servicesintro p{
     margin: 0 auto;
@@ -847,6 +862,9 @@ footer i {
   }
   #services b {
     font-size: 1.4rem;
+  }
+  .services p{
+    font-size: 2rem;
   }
   .carousel-caption{
     font-size:3rem;
@@ -873,59 +891,6 @@ footer i {
  }
   
 }
-@media (max-width: 413px) {
-  /* CSS rules for extra extra small devices */
-  #info p{
-    font-size: 1.5rem;
-  }
-  .sectionTitle{
-    font-size: 2.3rem;
-  }
-  .servicesintro p{
-    margin: 0 auto;
-    font-size: 1.7rem;
-    max-height: 1rem;
-    width: 100%;
-  }
-  .services h3{
-    font-size: 2.3rem;
-  }
-  #services b {
-    font-size: 1.4rem;
-  }
-  .carousel-caption{
-    font-size:3rem;
-  }
- #about{
-  height: 880px;
- }
- #about h1{
-  margin-top: 0px;
-  margin-bottom: 0px;
- }
- #about .aboutsoftware{
-  font-size: 2rem;
- }
- #about p{
- font-size: 1.2rem;
- }
- .bigabout{
-  height: 80%;
- }
- #contact{
-  height: auto;
- }
- #services b{
-  color:#FFF4F4;
-  font-size: 1.2rem;
-  
-}
-#services button{
-  margin-left: none;
-  margin-right: none;
- }
-  
-}
 @media (max-width: 368px) {
   /* CSS rules for extra extra iphonhe 11 small devices */
   #info p{
@@ -946,6 +911,9 @@ footer i {
   #services b {
     font-size: 1.4rem;
   }
+  .services p{
+    font-size: 2rem;
+  }
   .carousel-caption{
     font-size:3rem;
   }
@@ -961,6 +929,7 @@ footer i {
  }
  #about p{
  font-size: 1.2rem;
+ font-weight: 500;
  }
  .bigabout{
   height: 80%;

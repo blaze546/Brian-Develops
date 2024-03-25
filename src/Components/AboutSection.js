@@ -11,7 +11,7 @@ const AboutSection = () => {
           <br />
           based in Boston, MA
         </p>
-        <p> put text into a seperte box that i can size with a max width attribute
+        <p>
         As a passionate web developer and designer, I thrive on crafting unique digital experiences that captivate and engage users. From conceptualization to execution, I relish the challenge of turning ideas into visually stunning and functional websites. 
          If something goes awry, you can count on me to roll up my sleeves and fix it promptly, ensuring seamless user experiences at all times.
         </p>
