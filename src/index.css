@@ -565,7 +565,7 @@ border-bottom: 5px solid #f78c56;
 
  form textarea{
   height: 250px;
-  width: 100%;
+  max-width: 100%;
   align-self: center;
  }
 
