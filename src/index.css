@@ -293,7 +293,7 @@ border-bottom: 5px solid #f78c56;
   /*height: 120rem;*/
   padding-left: 5%;
   padding-right: 5%;
-  padding-top: 12rem;
+  padding-top: 16rem;
 }
 .services section{
   display: flex;
@@ -560,13 +560,17 @@ border-bottom: 5px solid #f78c56;
  }
 
  form input{
-  max-width: 100%;
+  width: 100%;
   height: 50px;
+ }
+ label {
+  display: block;
+  margin-bottom: 5px;
  }
 
  form textarea{
   height: 250px;
-  max-width: 100%;
+  width: 100%;
   align-self: center;
  }
 
@@ -680,6 +684,9 @@ footer i {
     color: #432616;
     font-size: 2.5rem;
   }
+  .services {
+    padding-top: 11rem;
+  }
   .servicesintro p{
     margin: 0 auto;
     font-size: 2rem;
@@ -775,6 +782,9 @@ footer i {
   #services b {
     font-size: 1.4rem;
   }
+  .services {
+    padding-top: 11rem;
+  }
   .carousel-caption{
     font-size:3rem;
   }
@@ -841,7 +851,7 @@ footer i {
   font-size: 1.5rem;
 }
 .services {
-  margin-top: 16rem;
+  padding-top: 11rem;
 }
  .bigabout{
   height: 80%;
