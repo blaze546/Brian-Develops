@@ -559,7 +559,7 @@ border-bottom: 5px solid #f78c56;
  }
 
  form input{
-  width: 100%;
+  max-width: 100%;
   height: 50px;
  }
 
