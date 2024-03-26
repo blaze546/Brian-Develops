@@ -12,11 +12,10 @@ const AboutSection = () => {
           based in Boston, MA
         </p>
         <p>
-        As a passionate web developer and designer, I thrive on crafting unique digital experiences that captivate and engage users. From conceptualization to execution, I relish the challenge of turning ideas into visually stunning and functional websites. 
-         If something goes awry, you can count on me to roll up my sleeves and fix it promptly, ensuring seamless user experiences at all times.
+        Welcome to my digital haven! I'm a devoted web developer and designer, driven by the art of creating engaging online experiences. From inception to realization, I thrive on turning ideas into visually stunning and functional websites. With a commitment to seamless user interaction, I'm always prepared to tackle any challenges that arise.
         </p>
         <p>
-        Beyond the screen, I find inspiration and joy in various pursuits. Whether it's crafting compelling narratives through writing, diving into immersive gaming worlds, cheering on Barcelona in heart-pounding matches, or embarking on adventures with loved ones, I believe in embracing every moment with creativity and enthusiasm.
+        Beyond the screen, I believe in embracing every moment with creativity and enthusiasm. I find joy in writing, gaming, supporting Barcelona, and embarking on exciting adventures with loved ones. 
         </p>
       </section>
 

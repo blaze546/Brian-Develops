@@ -13,7 +13,7 @@ const WelcomeSection = () => {
     <section id="welcome" className={`welcomesection ${animate ? 'slide-in' : ''}`}>
       <h1>Brian Alexandre</h1>
       <h2>Software Engineer</h2>
-      <p>Step into the digital realm where innovation meets precision. Welcome to a world where your vision is transformed into extraordinary digital experiences!</p>
+      <p>Step into the digital realm where innovation meets precision.</p>
       <section>
         <button className="buttonFix">
           <a href="#about">
