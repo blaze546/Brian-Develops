@@ -371,6 +371,9 @@ border-bottom: 5px solid #f78c56;
  .carousel{
   color:#432616;
  }
+ .carousel img{
+  height: 30rem;
+ }
  .carousel .carousel-caption {
   color: #F3D75B; /* Change to the desired text color */
   position: absolute;
@@ -928,7 +931,7 @@ footer i {
   font-size: 2rem;
  }
  #about p{
- font-size: 1.2rem;
+ font-size: 1.5rem;
  font-weight: 500;
  }
  .bigabout{
