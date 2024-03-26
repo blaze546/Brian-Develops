@@ -176,9 +176,9 @@ li {
   border-color: solid #2e4412 2px;
   border-radius: 5px;
   color: white;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 3rem;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 3rem;
   box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
   padding: 2px;
 }
@@ -240,7 +240,7 @@ border-bottom: 5px solid #f78c56;
 .sectionTitle{
    text-align:center;
    font-size: 3rem;
-   margin-top: 2rem;
+   padding-top: 2rem;
    font-weight: bold;
  }
 
@@ -260,13 +260,13 @@ border-bottom: 5px solid #f78c56;
   flex-direction: column;
   height: 100px;
   margin: 0;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 .service h1{
   font-size: 2.5rem;
   align-self: center;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   color: #432616;
 }
 .servicestitle{
@@ -291,9 +291,9 @@ border-bottom: 5px solid #f78c56;
   flex-wrap: wrap;
   justify-content: center;
   /*height: 120rem;*/
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 12rem;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 12rem;
 }
 .services section{
   display: flex;
@@ -319,13 +319,13 @@ border-bottom: 5px solid #f78c56;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 3rem;
-  margin-top: 2rem;
-  margin-bottom: 0;
+  padding-top: 2rem;
+  padding-bottom: 0;
 }
 
 .services p{
-  margin-top: 3rem;
-  margin-bottom: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
   font-size: 3rem;
 }
 
@@ -343,7 +343,7 @@ border-bottom: 5px solid #f78c56;
   border-color: solid #2e4412 2px;
   border-radius: 5px;
   color: white;
-  margin-bottom: 3rem;
+  padding-bottom: 3rem;
   box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
   padding: 2px;
 }
@@ -428,17 +428,17 @@ border-bottom: 5px solid #f78c56;
 }
 #about h1{
   font-size: 3rem;
-  margin-top: 100px;
+  padding-top: 100px;
   text-align: center;
   color: #432616;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
   text-align: center;
 }
 #about .aboutsoftware{
   font-size: 2.8rem;
   color: #432616;
-  margin-bottom: 1em;
+  padding-bottom: 1em;
 }
 
 #about a{
@@ -456,7 +456,7 @@ border-bottom: 5px solid #f78c56;
   display: flex;
   width: 200px;
   height: 200px;
-  margin-top: 2rem;
+  padding-top: 2rem;
   justify-content: center;
   align-self: center;
   border-radius: 50%;
@@ -495,7 +495,7 @@ border-bottom: 5px solid #f78c56;
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 2em;
+  padding-top: 2em;
   }
 
 
@@ -512,7 +512,7 @@ border-bottom: 5px solid #f78c56;
   box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
   padding: 2px;
   text-transform: uppercase;
-  margin-bottom: 1em;
+  padding-bottom: 1em;
  }
 
  
@@ -584,7 +584,7 @@ border-bottom: 5px solid #f78c56;
   background: #2e4412;
   border-radius: 5px;
   color: #FFF4F4;
-  margin: 12px;
+  padding: 12px;
   box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
   padding: 2px;
   text-transform: uppercase;
@@ -687,8 +687,8 @@ footer i {
     width: 100%;
   }
   #services button{
-    margin-left: 200px;
-    margin-right: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
    }
   
 }
@@ -711,8 +711,8 @@ footer i {
     font-size:30rem;
   }
   #services button{
-    margin-left: 200px;
-    margin-right: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
    }
   
 }
@@ -752,8 +752,8 @@ footer i {
     height: 80%;
    }
    #services button{
-    margin-left: 200px;
-    margin-right: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
    }
     
   } 
