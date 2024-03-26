@@ -432,7 +432,6 @@ border-bottom: 5px solid #f78c56;
   text-align: center;
   color: #432616;
   padding-top: 30px;
-  padding-bottom: 20px;
   text-align: center;
 }
 #about .aboutsoftware{
@@ -510,9 +509,8 @@ border-bottom: 5px solid #f78c56;
   border-radius: 5px;
   color: #ffffff;
   box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
-  padding: 2px;
   text-transform: uppercase;
-  padding-bottom: 1em;
+  margin: 1rem;
  }
 
  
