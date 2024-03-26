@@ -836,6 +836,12 @@ footer i {
  #about p{
  font-size: 1.3rem;
  }
+ .services p{
+  font-size: 1.5rem;
+}
+.services {
+  margin-top: 16rem;
+}
  .bigabout{
   height: 80%;
  }
@@ -913,6 +919,9 @@ footer i {
   }
   #services b {
     font-size: 1.4rem;
+  }
+  .services section{
+    margin: 30px;
   }
   .services p{
     font-size: 1.5rem;
