@@ -851,7 +851,7 @@ footer i {
   font-size: 1.5rem;
 }
 .services {
-  padding-top: 11rem;
+  padding-top: 13rem;
 }
  .bigabout{
   height: 80%;
@@ -885,6 +885,9 @@ footer i {
   }
   .services p{
     font-size: 2rem;
+  }
+  .services {
+    padding-top: 13rem;
   }
   .carousel-caption{
     font-size:3rem;
