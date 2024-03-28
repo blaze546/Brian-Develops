@@ -524,6 +524,7 @@ border-bottom: 5px solid #f78c56;
   align-items: center;
   background-color: #F9ebcd;
   color: #2e4412;
+  padding-bottom: 10px;
  }
 
  #contact h1{
@@ -577,7 +578,6 @@ border-bottom: 5px solid #f78c56;
    background-color: #2e4412;
  }
  #about button{
-  margin-top: 20px;
   height: 50px;
   width: 200px;
   align-self: center;
@@ -692,9 +692,13 @@ footer i {
     width: 100%;
   }
   #services button{
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 0px;
+    padding-right: 0px;
    }
+   .services section{
+    width:auto;
+   }
+   
   
 }
 /* Large devices (large desktops, 993px to 1200px) */
@@ -716,9 +720,12 @@ footer i {
     font-size:30rem;
   }
   #services button{
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 0px;
+    padding-right: 0px;
    }
+   .services section{
+    width: auto;
+  }
   
 }
 /* Medium devices (landscape tablets and medium desktops, 769px to 992px) */
@@ -735,6 +742,9 @@ footer i {
     font-size: 2.5rem;
     max-height: 1rem;
     width: 100%;
+  }
+  .services section{
+    width: auto;
   }
   .servicestitle{
     font-size: 3rem;
@@ -757,8 +767,8 @@ footer i {
     height: 80%;
    }
    #services button{
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 0px;
+    padding-right: 0px;
    }
     
   } 
@@ -915,10 +925,10 @@ footer i {
 @media (max-width: 368px) {
   /* CSS rules for extra extra iphonhe 11 small devices */
   #info p{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   .sectionTitle{
-    font-size: 2.0rem;
+    font-size: 1.7rem;
   }
   .services h3{
     font-size: 2rem;
@@ -956,7 +966,7 @@ footer i {
  font-weight: 500;
  }
  .bigabout{
-  height: 80%;
+  height: 90%;
  }
  #contact{
   height: auto;
