@@ -964,13 +964,16 @@ footer i {
   
 }
 
-@media (max-width: 310px) {
+@media (max-width: 325px) {
   #about{
     height: 105rem;
    }
    #services button{
     margin-left: none;
     margin-right: none;
+   }
+   .bigabout {
+    height: 95%;
    }
 }
 @media (max-width: 260px) {
