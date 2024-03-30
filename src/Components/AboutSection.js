@@ -15,7 +15,7 @@ const AboutSection = () => {
         Welcome to my digital haven! I'm a devoted web developer and designer, driven by the art of creating engaging online experiences. From inception to realization, I thrive on turning ideas into visually stunning and functional websites. With a commitment to seamless user interaction, I'm always prepared to tackle any challenges that arise.
         </p>
         <p>
-        Beyond the screen, I believe in embracing every moment with creativity and enthusiasm. I find joy in writing, gaming, supporting Barcelona, and embarking on exciting adventures with loved ones. 
+        Beyond the screen, I believe in embracing every moment with creativity and enthusiasm. I find joy in writing, gaming, supporting FC Barcelona, and embarking on exciting adventures with loved ones. 
         </p>
       </section>
 
